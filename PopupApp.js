@@ -2,13 +2,15 @@ const projects = [
  {
    title: "ShowMovie",
    description: "A ShowMovie Site ",
+   description1:"",
    imageSrc: "./images/reactmovie.png",
-   liveDemoLink: "https://zoumshowmovie.onrender.com",
+   liveDemoLink: "https://app.netlify.com/teams/massazoum/sites",
    codeLink: "https://github.com/examplehttps://zoumshowmovie.onrender.com"
  },
  {
    title: "NationConnect",
    description: "This is my third project",
+   description1:"",
    imageSrc: "./images/nation.png",
    liveDemoLink: "https://space-x-27k2.onrender.com",
    codeLink: "https://github.com/massazoum/NationsConnect"
@@ -18,7 +20,7 @@ const projects = [
   description: "This bookstore helps us to add and to remove book from API",
   description1:"The project is a user-friendly and efficient online bookstore application that allows users to easily manage the inventory of books stored in an external API. The primary objective is to simplify the process of adding new books to the API and removing existing ones.With this application, users can conveniently add book details such as title, author, genre, and publication information, and seamlessly upload them to the API. The interface is designed to be intuitive and straightforward, enabling users to input the necessary information with ease.",
   imageSrc: "./images/Bookstore.png",
-  liveDemoLink: "https://example.com",
+  liveDemoLink: "https://64cf80e60ad7293d14b83e93--stirring-bublanina-e200bb.netlify.app/",
   codeLink: "https://github.com/example"
 },
 {
@@ -35,11 +37,27 @@ const projects = [
   imageSrc: "./images/Math_magicians.png",
   liveDemoLink: "https://math-magicians-ue5p.onrender.com",
   codeLink: "https://github.com/massazoum/Math-magicians"
+},
+{
+  title: "Leaderboard",
+  description: "This to do list projet is a mini app to save task for our journey in this app we add remove and update",
+  description1:"This to do list projet is a mini app to save task for our journey in this app we add remove and update",
+  imageSrc: "./images/leaderboard.png",
+  liveDemoLink: "https://massazoum.github.io/Leaderboard/dist",
+  codeLink: "https://github.com/massazoum/Leaderboard.git"
 }
 ,{
-  title: "Project 2",
+  title: "To-Do-list",
+  description: "This to do list projet is a mini app to save task for our journey in this app we add remove and update",
+  description1:"This to do list projet is a mini app to save task for our journey in this app we add remove and update",
+  imageSrc: "./images/todo.png",
+  liveDemoLink: "https://massazoum.github.io/To-Do-list-project/dist",
+  codeLink: "https://github.com/massazoum/capstone-project-1"
+}
+,{
+  title: "AI in education",
   description: "This capstone projet is around the artificial intelligence in order to improve our nation education",
-  description1:'',
+  description1: "This capstone projet is around the artificial intelligence in order to improve our nation education",
   imageSrc: "./images/AI.png",
   liveDemoLink: "https://massazoum.github.io/capstone-project-1",
   codeLink: "https://github.com/massazoum/capstone-project-1"
