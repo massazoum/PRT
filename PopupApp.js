@@ -2,18 +2,20 @@ const projects = [
  {
    title: "ShowMovie",
    description: "A ShowMovie Site ",
-   description1:"",
+   description1:"ReactShowMovie is a web application built using React.js, a popular JavaScript library for building user interfaces, and it utilizes an API to fetch and display information about movies.",
    imageSrc: "./images/reactmovie.png",
    liveDemoLink: "https://app.netlify.com/teams/massazoum/sites",
-   codeLink: "https://github.com/examplehttps://zoumshowmovie.onrender.com"
+   codeLink: "https://github.com/massazoum/ReactShowMovie",
+   skills:"React"
  },
  {
    title: "NationConnect",
-   description: "This is my third project",
-   description1:"",
+   description: "is a Web application thatpresents the countries with details such as thepopulation, language, region using an API.",
+   description1:" is a Web application thatpresents the countries with details such as thepopulation, language, region using an API.",
    imageSrc: "./images/nation.png",
-   liveDemoLink: "https://space-x-27k2.onrender.com",
-   codeLink: "https://github.com/massazoum/NationsConnect"
+   liveDemoLink: "https://nationsconnect.onrender.com",
+   codeLink: "https://github.com/massazoum/NationsConnect",
+   skills:"React"
  },
  {
   title: "Bookstore",
@@ -21,14 +23,17 @@ const projects = [
   description1:"The project is a user-friendly and efficient online bookstore application that allows users to easily manage the inventory of books stored in an external API. The primary objective is to simplify the process of adding new books to the API and removing existing ones.With this application, users can conveniently add book details such as title, author, genre, and publication information, and seamlessly upload them to the API. The interface is designed to be intuitive and straightforward, enabling users to input the necessary information with ease.",
   imageSrc: "./images/Bookstore.png",
   liveDemoLink: "https://64cf80e60ad7293d14b83e93--stirring-bublanina-e200bb.netlify.app/",
-  codeLink: "https://github.com/example"
+  codeLink: "https://github.com/massazoum/Zoum_Bookstore",
+  skills:"React"
 },
 {
   title: "Space",
-  description: "This is my second project",
+  description: "Space  ",
+  description1: "Space  ",
   imageSrc: "./images/space.png",
   liveDemoLink: "https://example.com",
-  codeLink: "https://github.com/Shaheryar0054/react-group-project"
+  codeLink: "https://github.com/Shaheryar0054/react-group-project",
+  skills:"React"
 },
 {
   title: "Math_magicians",
@@ -36,7 +41,8 @@ const projects = [
   description1: "Math_magicians is a comprehensive calculator project designed to provide users with a wide range of mathematical functionalities and capabilities. This project aims to create a versatile and user-friendly calculator application that offers a seamless experience for performing various mathematical calculations.Math_magicians incorporates a sleek and intuitive user interface, allowing users to input mathematical expressions and receive accurate results promptly.",
   imageSrc: "./images/Math_magicians.png",
   liveDemoLink: "https://math-magicians-ue5p.onrender.com",
-  codeLink: "https://github.com/massazoum/Math-magicians"
+  codeLink: "https://github.com/massazoum/Math-magicians",
+  skills:"React"
 },
 {
   title: "Leaderboard",
@@ -44,7 +50,8 @@ const projects = [
   description1:"This to do list projet is a mini app to save task for our journey in this app we add remove and update",
   imageSrc: "./images/leaderboard.png",
   liveDemoLink: "https://massazoum.github.io/Leaderboard/dist",
-  codeLink: "https://github.com/massazoum/Leaderboard.git"
+  codeLink: "https://github.com/massazoum/Leaderboard.git",
+  skills:""
 }
 ,{
   title: "To-Do-list",
@@ -52,7 +59,8 @@ const projects = [
   description1:"This to do list projet is a mini app to save task for our journey in this app we add remove and update",
   imageSrc: "./images/todo.png",
   liveDemoLink: "https://massazoum.github.io/To-Do-list-project/dist",
-  codeLink: "https://github.com/massazoum/capstone-project-1"
+  codeLink: "https://github.com/massazoum/capstone-project-1",
+  skills:"HTML CSS JAVASCRIPT"
 }
 ,{
   title: "AI in education",
@@ -60,7 +68,8 @@ const projects = [
   description1: "This capstone projet is around the artificial intelligence in order to improve our nation education",
   imageSrc: "./images/AI.png",
   liveDemoLink: "https://massazoum.github.io/capstone-project-1",
-  codeLink: "https://github.com/massazoum/capstone-project-1"
+  codeLink: "https://github.com/massazoum/capstone-project-1",
+  skills:"HTML CSS JAVASCRIPT"
 },
 ];
 
@@ -74,7 +83,7 @@ projects.forEach(project => {
  <img src="${project.imageSrc}" class="ImageCard" alt="${project.title}" width="100%" onclick="openCardPopup('${project.title}', '${project.description}', '${project.imageSrc}', '${project.liveDemoLink}', '${project.codeLink}')">
  <div class="color">${project.title}</div>
  <div class="color">${project.description}</div>
- <div  class="color"><span type="button" disabled>HTML</span><span type="button" disabled>CSS</span><span type="button" disabled>JavaScript</span></div>
+ <div class="color skills">${project.skills}</div>
  <button class="see-project-button" onclick="openCardPopup('${project.title}', '${project.description1}', '${project.imageSrc}', '${project.liveDemoLink}', '${project.codeLink}')">See Project</button>
 
  `;

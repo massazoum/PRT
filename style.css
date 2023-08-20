@@ -115,6 +115,11 @@ h2 {
   margin-top: 8px ;
 }
 
+.skills{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+
 .row {
  display: flex;
  flex-wrap: wrap;
@@ -1014,6 +1019,11 @@ color: var(--bg-black-70);
   font-weight: 10;
   color: #ff4136;
   letter-spacing: 0.1rem;
+}
+
+.skills{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
 }
 }
 
