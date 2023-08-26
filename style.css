@@ -606,6 +606,10 @@ transition: all 0.6s ease;
   row-gap: 10px;
 } */
 
+.rowAbout  {
+  margin-top: -80px;
+}
+
 .imgPort {
   width:100%;
   height: 200px;
@@ -831,16 +835,17 @@ color: var(--bg-black-70);
 .main-container {
   padding-left: 0;
 }
+
 .rowAbout {
   display: flex;
   flex-direction: column;
 }
+
 .about .about-content .personal-info {
   /* flex: 0 0 60%; */
   max-width: 100%;
-  /* background-color: red; */
-  /* margin-top: 40px; */
 }
+
 .about .about-content .personal-info .info-item {
   /* flex: 0 0 50% ; */
   max-width: 100%;
@@ -855,6 +860,10 @@ color: var(--bg-black-70);
   flex: 0 0 100%;
   max-width: 100%;
 }
+
+/* .skills{
+height: auto;
+} */
 
 .rowEducationexperience {
   display: flex;
@@ -1044,8 +1053,6 @@ color: var(--bg-black-70);
   
 }
 
-
-
 @media (max-width:475px){
   .ServicesRow {
     display: grid;
@@ -1064,14 +1071,68 @@ color: var(--bg-black-70);
   }
  }
 
-
 .ImageCard {
   height: 150px;
   border: #fff 1px solid;
   transition: 2s;
 }
 
+.competences {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Responsive grid */
+  gap: 5px;
+  justify-items: center;
+}
 
+.competence {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  text-align: center;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.competence:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 
+.icone {
+  height: 100px;
+  padding-top: 20px;
+}
 
+.icone img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.nom {
+  padding: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.pourcentage {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(255, 99, 71);
+  color: #fff;
+  font-weight: bold;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.competence:hover .pourcentage {
+  transform: translateY(0);
+}
