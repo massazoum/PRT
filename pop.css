@@ -8,6 +8,18 @@
  --text-black-700:#302e4d;
 }
 
+.skills {
+  font-family: cursive;
+  color: tomato;
+  font-weight: lighter;
+}
+
+.colortitle {
+  color:#fff;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -159,8 +171,7 @@ border-radius: 10px;
 
 .color {
   color:#fff;
-  font-family: 'poppins',sans-serif;
-  font-weight:100;
+  /* font-family: 'poppins',sans-serif; */
 }
 
 @media (max-width:780px) {

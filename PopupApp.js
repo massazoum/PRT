@@ -1,4 +1,13 @@
 const projects = [
+  {
+    title: "Butget_app",
+    description: "A mobile web app where you can manage your budget",
+    description1:"A mobile web app where you can manage your budget: you have a list of transactions associated with a category, so you can see how much  money you've spent and on what.",
+    imageSrc: "./images/butget.png",
+    liveDemoLink: "https://budget-ixbx.onrender.com",
+    codeLink: "https://github.com/massazoum/Budget.git",
+    skills:"PostgreSQL, Ruby on rails"
+  },
  {
    title: "ShowMovie",
    description: "A ShowMovie Site ",
@@ -51,7 +60,7 @@ const projects = [
   imageSrc: "./images/leaderboard.png",
   liveDemoLink: "https://massazoum.github.io/Leaderboard/dist",
   codeLink: "https://github.com/massazoum/Leaderboard.git",
-  skills:""
+  skills:"HTML CSS JAVASCRIPT"
 }
 ,{
   title: "To-Do-list",
@@ -81,9 +90,9 @@ projects.forEach(project => {
  card.dataset.aos = 'zoom-in';
  card.innerHTML = `
  <img src="${project.imageSrc}" class="ImageCard" alt="${project.title}" width="100%" onclick="openCardPopup('${project.title}', '${project.description}', '${project.imageSrc}', '${project.liveDemoLink}', '${project.codeLink}')">
- <div class="color">${project.title}</div>
+ <div class="colortitle">${project.title}</div>
  <div class="color">${project.description}</div>
- <div class="color skills">${project.skills}</div>
+ <div class="skills">${project.skills}</div>
  <button class="see-project-button" onclick="openCardPopup('${project.title}', '${project.description1}', '${project.imageSrc}', '${project.liveDemoLink}', '${project.codeLink}')">See Project</button>
 
  `;
