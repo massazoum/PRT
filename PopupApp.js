@@ -2,7 +2,7 @@ const projects = [
   {
     title: "Butget_app",
     description: "A mobile web app where you can manage your budget",
-    description1:"A mobile web app where you can manage your budget: you have a list of transactions associated with a category, so you can see how much  money you've spent and on what.",
+    description1:"A mobile web app where you can manage your budget: you have a list of transactions associated with a category.",
     imageSrc: "./images/butget.png",
     liveDemoLink: "https://budget-ixbx.onrender.com",
     codeLink: "https://github.com/massazoum/Budget.git",
