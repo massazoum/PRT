@@ -757,6 +757,18 @@ color: var(--bg-black-70);
   letter-spacing: 0.1rem;
 }
 @media (max-width:780px) {
+  body {
+    width: 100vw;
+  }
+  .section {
+    /* background: var(--bg-black-900); */
+    background: black;
+    height: auto;
+    display: block;
+    width: 100vw;
+    margin-left: 0;
+    color: rgb(255, 99, 71);
+   }
 
   .toggle {
     position: fixed;
@@ -832,6 +844,7 @@ color: var(--bg-black-70);
 
 .main-container {
   padding-left: 0;
+  width: 100vw;
 }
 
 .rowAbout {
@@ -1104,7 +1117,7 @@ height: auto;
 
 .icone {
   height: 100px;
-  padding-top: 20px;
+ width: 100px;;
 }
 
 .icone img {
