@@ -29,7 +29,7 @@ const projects = [
  {
   title: "Bookstore",
   description: "This bookstore helps us to add and to remove book from API",
-  description1:"The project is a user-friendly and efficient online bookstore application that allows users to easily manage the inventory of books stored in an external API. The primary objective is to simplify the process of adding new books to the API and removing existing ones.With this application, users can conveniently add book details such as title, author, genre, and publication information, and seamlessly upload them to the API. The interface is designed to be intuitive and straightforward, enabling users to input the necessary information with ease.",
+  description1:"The project is a user-friendly and efficient online bookstore application that allows users to easily manage the inventory of books stored in an external API. The primary objective is to simplify the process of adding new books to the API and removing existing ones.",
   imageSrc: "./images/Bookstore.png",
   liveDemoLink: "https://64cf80e60ad7293d14b83e93--stirring-bublanina-e200bb.netlify.app/",
   codeLink: "https://github.com/massazoum/Zoum_Bookstore",
@@ -47,7 +47,7 @@ const projects = [
 {
   title: "Math_magicians",
   description: 'Math_magicians is a comprehensive calculator',
-  description1: "Math_magicians is a comprehensive calculator project designed to provide users with a wide range of mathematical functionalities and capabilities. This project aims to create a versatile and user-friendly calculator application that offers a seamless experience for performing various mathematical calculations.Math_magicians incorporates a sleek and intuitive user interface, allowing users to input mathematical expressions and receive accurate results promptly.",
+  description1: "Math_magicians is a comprehensive calculator project designed to provide users with a wide range of mathematical functionalities and capabilities. This project aims to create a versatile and user-friendly calculator application that offers a seamless experience for performing various mathematical calculations.",
   imageSrc: "./images/Math_magicians.png",
   liveDemoLink: "https://math-magicians-ue5p.onrender.com",
   codeLink: "https://github.com/massazoum/Math-magicians",
