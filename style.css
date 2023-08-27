@@ -757,9 +757,41 @@ color: var(--bg-black-70);
   letter-spacing: 0.1rem;
 }
 @media (max-width:780px) {
-  body {
+  .bg {
+    position: absolute;
+    /* background-image: url(./images/bgALL.jpg); */
+    /* background-attachment: fixed; */
+    background-size: cover;
+    height:auto;
     width: 100vw;
+    overflow: hidden;
+    z-index: -1;
   }
+
+  .skills{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 5px;
+  }
+
+  .Services {
+    margin-top: -100px;
+  }
+  
+  .buttons {
+    column-gap: 30px;
+    margin-left: 18px;
+  }
+
+  .sectionabout {
+    margin-left: 25px;
+  }
+
+  .bgoverflow {
+    overflow: hidden;
+  }
+  
   .section {
     /* background: var(--bg-black-900); */
     background: black;
@@ -1060,8 +1092,7 @@ height: auto;
   .imgPort {
     width:90vw;
     height: 300px;
-  }
-  
+  }  
 }
 
 @media (max-width:475px){
@@ -1073,6 +1104,13 @@ height: auto;
   .imgPort {
     width:90vw;
     height: 300px;
+  }
+
+  .service-item {
+    border: var(--skin-color) 1px solid;
+    border-radius: 11px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 }
 

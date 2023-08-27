@@ -6,7 +6,7 @@ const projects = [
     imageSrc: "./images/butget.png",
     liveDemoLink: "https://budget-ixbx.onrender.com",
     codeLink: "https://github.com/massazoum/Budget.git",
-    skills:"PostgreSQL, Ruby on rails"
+    skills:"PostgreSQL | Ruby on rails"
   },
  {
    title: "ShowMovie",
@@ -60,7 +60,7 @@ const projects = [
   imageSrc: "./images/leaderboard.png",
   liveDemoLink: "https://massazoum.github.io/Leaderboard/dist",
   codeLink: "https://github.com/massazoum/Leaderboard.git",
-  skills:"HTML CSS JAVASCRIPT"
+  skills:"Html | Css | JavaScriptT"
 }
 ,{
   title: "To-Do-list",
@@ -69,7 +69,7 @@ const projects = [
   imageSrc: "./images/todo.png",
   liveDemoLink: "https://massazoum.github.io/To-Do-list-project/dist",
   codeLink: "https://github.com/massazoum/capstone-project-1",
-  skills:"HTML CSS JAVASCRIPT"
+  skills:"Html | Css | JavaScript"
 }
 ,{
   title: "AI in education",
@@ -78,7 +78,7 @@ const projects = [
   imageSrc: "./images/AI.png",
   liveDemoLink: "https://massazoum.github.io/capstone-project-1",
   codeLink: "https://github.com/massazoum/capstone-project-1",
-  skills:"HTML CSS JAVASCRIPT"
+  skills:"Html | Css | JavaScript"
 },
 ];
 
