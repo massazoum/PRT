@@ -13,7 +13,7 @@ const projects = [
    description: "A ShowMovie Site ",
    description1:"ReactShowMovie is a web application built using React.js, a popular JavaScript library for building user interfaces, and it utilizes an API to fetch and display information about movies.",
    imageSrc: "./images/reactmovie.png",
-   liveDemoLink: "https://app.netlify.com/teams/massazoum/sites",
+   liveDemoLink: "https://zoumshowmovie.onrender.com",
    codeLink: "https://github.com/massazoum/ReactShowMovie",
    skills:"React"
  },
@@ -40,7 +40,7 @@ const projects = [
   description: "Space  ",
   description1: "Space  ",
   imageSrc: "./images/space.png",
-  liveDemoLink: "https://example.com",
+  liveDemoLink: "https://space-x-27k2.onrender.com",
   codeLink: "https://github.com/Shaheryar0054/react-group-project",
   skills:"React"
 },

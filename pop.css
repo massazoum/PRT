@@ -194,8 +194,12 @@ border-radius: 10px;
   margin-bottom: 10px;
  }
 
+ .cardPopupDescription {
+  font-size: 14px;
+  margin: -10px;
+ }
  .cardPopupImage {
-  height: 50vh;
+  height: 40vh;
  width: 100%;
  }
 
@@ -203,7 +207,8 @@ border-radius: 10px;
   display: flex;
   justify-content: center;
   width: 85vw;
-  height: 50vh;
+  height: 40vh;
+  margin-top: 20px;
  }
  .card-popup-content {
   width: 95vw;
