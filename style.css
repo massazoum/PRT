@@ -526,7 +526,6 @@ column-gap: 30px;
 }
 
 .bg {
-  /* background-image: url(./images/bgALL.jpg); */
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;;
