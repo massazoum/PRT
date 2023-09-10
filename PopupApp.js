@@ -92,7 +92,7 @@ projects.forEach(project => {
  <img src="${project.imageSrc}" class="ImageCard" alt="${project.title}" width="100%" onclick="openCardPopup('${project.title}', '${project.description}', '${project.imageSrc}', '${project.liveDemoLink}', '${project.codeLink}')">
  <div class="colortitle">${project.title}</div>
  <div class="color">${project.description}</div>
- <div class="skills">${project.skills}</div>
+ <div class="skillscard">${project.skills}</div>
  <button class="see-project-button" onclick="openCardPopup('${project.title}', '${project.description1}', '${project.imageSrc}', '${project.liveDemoLink}', '${project.codeLink}')">See Project</button>
 
  `;
