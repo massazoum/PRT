@@ -53,6 +53,10 @@ ul {
   color: var(--skin-color);
 }
 
+.home-info .icon {
+font-size: x-large;
+}
+
 .section {
  background: #010014;
  min-height: 100vh;
@@ -731,6 +735,7 @@ color: var(--bg-black-70);
 .display-colunm {
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 .containerZ {
@@ -742,7 +747,7 @@ color: var(--bg-black-70);
   text-align: right;
   padding-top: 2px; 
   padding-bottom: 2px; 
-  color: white;
+  color: #ffffff;
 }
 
 .html {width: 90%; background-color: #04AA6D;}
@@ -753,15 +758,10 @@ color: var(--bg-black-70);
 .rails {width: 60%; background-color: #ffde22}
 
 @media (max-width:780px) {
-  /* .bg {
-    position: absolute;
-    background-size: cover;
-    height:auto;
-    width: 100vw;
-    overflow: hidden;
-    z-index: -1;
-  } */
-
+  .home-info .icon {
+    font-size: x-large;
+    }
+    
   .skills{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
@@ -769,10 +769,13 @@ color: var(--bg-black-70);
     padding-bottom: 5px;
   }
 
-  .Services {
-    /* margin-top: -100px; */
+  .Skill {
+    text-align: right;
+    padding-top: -2px; 
+    padding-bottom: -2px; 
+    color: #ffffff;
   }
-  
+
   .buttons {
     column-gap: 30px;
     margin-left: 18px;
