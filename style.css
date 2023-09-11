@@ -754,9 +754,9 @@ color: var(--bg-black-70);
 .html {width: 90%; background-color: #04AA6D;}
 .css {width: 80%; background-color: #2196F3;} 
 .js {width: 75%; background-color: #f44336;} 
-.react {width: 70%; background-color: #808080;}
+.react {width: 73%; background-color: #808080;}
 .postgres {width: 76%; background-color: #bf4aa8}
-.rails {width: 60%; background-color: #ffde22}
+.rails {width: 74%; background-color: #ffde22}
 
 @media (max-width:780px) {
   .home-info .icon {
