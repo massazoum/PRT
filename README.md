@@ -87,7 +87,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
   - cd my-folder
-  - git clone https://github.com/massazoum/Portfolio-setup-and-mobile-first.git
+  - git clone https://github.com/massazoum/PRT.git
   
   - git clone
   - npm install or npm init -y
