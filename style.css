@@ -532,9 +532,6 @@ column-gap: 30px;
   height: 100%;
 }
 
-.Services {
-  /* margin-top: -20vh; */
-}
 
 .ServicesRow {
   display: grid;
@@ -598,6 +595,20 @@ transition: all 0.6s ease;
 .rowAbout  {
   margin-top: -80px;
 }
+
+.rowAbout .skills {
+  display: flex;
+  flex-direction: row;
+}
+
+.displayLanguage {
+  width: 47%;
+  margin-right: 6%;
+  }
+  
+  .displayFramework {
+    width: 47%;
+  }
 
 .imgPort {
   width:100%;
@@ -733,11 +744,6 @@ color: var(--bg-black-70);
 }
 
 
-.display-colunm {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-}
 
 .containerZ {
   width: 100%; 
@@ -757,12 +763,31 @@ color: var(--bg-black-70);
 .react {width: 73%; background-color: #808080;}
 .postgres {width: 76%; background-color: #bf4aa8}
 .rails {width: 74%; background-color: #ffde22}
+.ruby {width: 70%; background-color: #cb14a1}
 
 @media (max-width:780px) {
   .home-info .icon {
     font-size: x-large;
     }
+    .display-colunm {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+    }
     
+    .rowAbout .skills {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .displayLanguage {
+      width:100%;
+   }
+      
+      .displayFramework {
+        width: 100%;
+      }
+
   .skills{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
