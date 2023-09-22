@@ -26,42 +26,42 @@ const projects = [
    codeLink: "https://github.com/massazoum/NationsConnect",
    skills:"React"
  },
-//  {
-//   title: "Bookstore",
-//   description: "This bookstore helps us to add and to remove book from API",
-//   description1:"The project is a user-friendly and efficient online bookstore application that allows users to easily manage the inventory of books stored in an external API. The primary objective is to simplify the process of adding new books to the API and removing existing ones.",
-//   imageSrc: "./images/Bookstore.png",
-//   liveDemoLink: "https://64cf80e60ad7293d14b83e93--stirring-bublanina-e200bb.netlify.app/",
-//   codeLink: "https://github.com/massazoum/Zoum_Bookstore",
-//   skills:"React"
-// },
-// {
-//   title: "Space",
-//   description: "Space  ",
-//   description1: "Space  ",
-//   imageSrc: "./images/space.png",
-//   liveDemoLink: "https://space-x-27k2.onrender.com",
-//   codeLink: "https://github.com/Shaheryar0054/react-group-project",
-//   skills:"React"
-// },
-// {
-//   title: "Math_magicians",
-//   description: 'Math_magicians is a comprehensive calculator',
-//   description1: "Math_magicians is a comprehensive calculator project designed to provide users with a wide range of mathematical functionalities and capabilities. This project aims to create a versatile and user-friendly calculator application that offers a seamless experience for performing various mathematical calculations.",
-//   imageSrc: "./images/Math_magicians.png",
-//   liveDemoLink: "https://math-magicians-ue5p.onrender.com",
-//   codeLink: "https://github.com/massazoum/Math-magicians",
-//   skills:"React"
-// },
-// {
-//   title: "Leaderboard",
-//   description: "This to do list projet is a mini app to save task for our journey in this app we add remove and update",
-//   description1:"This to do list projet is a mini app to save task for our journey in this app we add remove and update",
-//   imageSrc: "./images/leaderboard.png",
-//   liveDemoLink: "https://massazoum.github.io/Leaderboard/dist",
-//   codeLink: "https://github.com/massazoum/Leaderboard.git",
-//   skills:"Html | Css | JavaScriptT"
-// }
+ {
+  title: "Bookstore",
+  description: "This bookstore helps us to add and to remove book from API",
+  description1:"The project is a user-friendly and efficient online bookstore application that allows users to easily manage the inventory of books stored in an external API. The primary objective is to simplify the process of adding new books to the API and removing existing ones.",
+  imageSrc: "./images/Bookstore.png",
+  liveDemoLink: "https://64cf80e60ad7293d14b83e93--stirring-bublanina-e200bb.netlify.app/",
+  codeLink: "https://github.com/massazoum/Zoum_Bookstore",
+  skills:"React"
+},
+{
+  title: "Space",
+  description: "Space  ",
+  description1: "Space  ",
+  imageSrc: "./images/space.png",
+  liveDemoLink: "https://space-x-27k2.onrender.com",
+  codeLink: "https://github.com/Shaheryar0054/react-group-project",
+  skills:"React"
+},
+{
+  title: "Math_magicians",
+  description: 'Math_magicians is a comprehensive calculator',
+  description1: "Math_magicians is a comprehensive calculator project designed to provide users with a wide range of mathematical functionalities and capabilities. This project aims to create a versatile and user-friendly calculator application that offers a seamless experience for performing various mathematical calculations.",
+  imageSrc: "./images/Math_magicians.png",
+  liveDemoLink: "https://math-magicians-ue5p.onrender.com",
+  codeLink: "https://github.com/massazoum/Math-magicians",
+  skills:"React"
+},
+{
+  title: "Leaderboard",
+  description: "This to do list projet is a mini app to save task for our journey in this app we add remove and update",
+  description1:"This to do list projet is a mini app to save task for our journey in this app we add remove and update",
+  imageSrc: "./images/leaderboard.png",
+  liveDemoLink: "https://massazoum.github.io/Leaderboard/dist",
+  codeLink: "https://github.com/massazoum/Leaderboard.git",
+  skills:"Html | Css | JavaScriptT"
+}
 ,{
   title: "To-Do-list",
   description: "This to do list projet is a mini app to save task for our journey in this app we add remove and update",
