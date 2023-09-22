@@ -48,4 +48,3 @@ AOS.init({
   once: false,
 });
 
-

@@ -9,6 +9,10 @@
   --text-black-700: #302e4d;
 }
 
+* {
+  font-family: 'poppins', sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
