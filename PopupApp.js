@@ -46,7 +46,6 @@ const projects = [
 },
 ];
 
-// Render projects
 const projectsContainer = document.querySelector(".projects");
 projects.forEach(project => {
  const card = document.createElement("div");
