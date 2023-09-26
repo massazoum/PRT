@@ -57,7 +57,6 @@ projects.forEach(project => {
  <div class="color">${project.description}</div>
  <div class="skillscard">${project.skills}</div>
  <button class="see-project-button" onclick="openCardPopup('${project.title}', '${project.description1}', '${project.imageSrc}', '${project.liveDemoLink}', '${project.codeLink}')">See Project</button>
-
  `;
  projectsContainer.appendChild(card);
 });
@@ -69,7 +68,9 @@ function openCardPopup(title, description, imageSrc, liveDemoLink, codeLink) {
  document.getElementById("cardPopupImage").src = imageSrc;
  document.getElementById("cardPopup").classList.add("active");
  document.getElementById("cardPopupLiveDemo").href = liveDemoLink;
- document.getElementById("cardPopupCode").href= codeLink;
+ document.getElementById("cardPopupLiveDemo").target = "_blank";
+ document.getElementById("cardPopupCode").href = codeLink;
+ document.getElementById("cardPopupCode").target = "_blank";
 }
 
 function closeCardPopup() {
@@ -80,3 +81,4 @@ function closeCardPopup() {
 function submitForm(event) {
  event.preventDefault();
 }
+
