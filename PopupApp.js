@@ -81,4 +81,3 @@ function closeCardPopup() {
 function submitForm(event) {
  event.preventDefault();
 }
-
