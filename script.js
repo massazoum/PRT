@@ -34,7 +34,6 @@ form.addEventListener('submit', (event) => {
     // email is in lowercase, submit the form
     form.submit();
   } else {
-    // email is not in lowercase, show error message
     const errorMsg = document.querySelector('.error-message');
     errorMsg.textContent = 'Email should be in lowercase.';
     errorMsg.style.color = '#FF4136';
