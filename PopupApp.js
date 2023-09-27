@@ -61,7 +61,6 @@ projects.forEach(project => {
  projectsContainer.appendChild(card);
 });
 
-// Card Popup
 function openCardPopup(title, description, imageSrc, liveDemoLink, codeLink) {
  document.getElementById("cardPopupTitle").textContent = title;
  document.getElementById("cardPopupDescription").textContent = description;
@@ -77,7 +76,6 @@ function closeCardPopup() {
  document.getElementById("cardPopup").classList.remove("active");
 }
 
-// Form Submission
 function submitForm(event) {
  event.preventDefault();
 }
