@@ -18,6 +18,8 @@ let typed =new Typed(".typing",{
  backSpeed:60,
  loop:true,
 })
+
+// get form elements
 const form = document.querySelector('.form0');
 const emailInput = form.querySelector('.inp-email');
 const submitBtn = form.querySelector('.submit0');
