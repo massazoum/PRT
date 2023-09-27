@@ -26,7 +26,6 @@ const submitBtn = form.querySelector('.submit0');
 
 // add event listener to the form submission
 form.addEventListener('submit', (event) => {
-  // prevent default form submission behavior
   event.preventDefault();
 
   if (emailInput.value === emailInput.value.toLowerCase()) {
