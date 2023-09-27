@@ -29,7 +29,6 @@ form.addEventListener('submit', (event) => {
   // prevent default form submission behavior
   event.preventDefault();
 
-  // check if email is in lowercase
   if (emailInput.value === emailInput.value.toLowerCase()) {
     form.submit();
   } else {
@@ -40,9 +39,7 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-
 AOS.init({
   duration: 1000,
   once: false,
 });
-
