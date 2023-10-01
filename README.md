@@ -33,7 +33,7 @@
 
 # 📖 portfolio <a name="about-project"></a>
 This pull is created to add javascript to my portfolio and make interaction on my menu bars and times 
-This PR updates the responsive desktop design for our website to improve its usability on larger screens. The goal of this update is to provide a better user experience for desktop users and ensure that our website looks great on all devices
+This PR updates the responsive desktop design for our website to improve its usability on larger screens. The goal of this update is to provide a better user experience for desktop users and ensure that our website looks great on all devices.
 
 ## 🛠 Built With <a name="built-with"></a>
 <ul>
