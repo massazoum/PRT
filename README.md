@@ -94,7 +94,7 @@ Clone this repository to your desired folder:
 
 ### Run tests
 
-This website has been completed and deployed
+This website has been completed and deployed.
 
 ### Deployment
 
