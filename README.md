@@ -96,7 +96,7 @@ Clone this repository to your desired folder:
 
 This website has been completed and deployed.
 
-### Deployment
+### Deployment .
 
   The changes will be deployed to the website through our standard deployment process.
 - [PortFolio](https://massazoum.github.io/PRT)
