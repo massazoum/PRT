@@ -27,7 +27,7 @@ const projects = [
    skills:"React"
  }
 ,{
-  title: "To-Do-list",
+  title: "TaskManager",
   description: "This to do list projet is a mini app to save task for our journey in this app we add remove and update",
   description1:"This to do list projet is a mini app to save task for our journey in this app we add remove and update",
   imageSrc: "./images/todo.png",
