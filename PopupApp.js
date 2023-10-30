@@ -32,7 +32,7 @@ const projects = [
 	description: 'Math_magicians is a comprehensive calculator',
 	description1: "Math_magicians is a comprehensive calculator project designed to provide users with a wide range of mathematical functionalities and capabilities. This project aims to create a versatile and user-friendly calculator application that offers a seamless experience for performing various mathematical calculations.",
 	imageSrc: "./images/Math_magicians.png",
-	liveDemoLink: "https://math-magicians-eacd.onrender.com/ZoumCalculator",
+	liveDemoLink: "https://math-magicians-eacd.onrender.com",
 	codeLink: "https://github.com/massazoum/Math-magicians",
 	skills:"React"
  },
