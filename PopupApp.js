@@ -26,7 +26,17 @@ const projects = [
    codeLink: "https://github.com/massazoum/NationsConnect",
    skills:"React"
  }
-,{
+,
+  {
+	title: "Math_magicians",
+	description: 'Math_magicians is a comprehensive calculator',
+	description1: "Math_magicians is a comprehensive calculator project designed to provide users with a wide range of mathematical functionalities and capabilities. This project aims to create a versatile and user-friendly calculator application that offers a seamless experience for performing various mathematical calculations.",
+	imageSrc: "./images/Math_magicians.png",
+	liveDemoLink: "https://math-magicians-eacd.onrender.com/ZoumCalculator",
+	codeLink: "https://github.com/massazoum/Math-magicians",
+	skills:"React"
+ },
+ {
   title: "TaskManager",
   description: "This to do list projet is a mini app to save task for our journey in this app we add remove and update",
   description1:"This to do list projet is a mini app to save task for our journey in this app we add remove and update",
